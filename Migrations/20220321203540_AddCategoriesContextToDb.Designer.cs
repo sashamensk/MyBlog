@@ -12,8 +12,8 @@ using MyBlog.Data;
 namespace MyBlog.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220314204659_AddCategoryToDatabase")]
-    partial class AddCategoryToDatabase
+    [Migration("20220321203540_AddCategoriesContextToDb")]
+    partial class AddCategoriesContextToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

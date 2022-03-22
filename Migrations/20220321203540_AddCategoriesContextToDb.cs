@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace MyBlog.Migrations
 {
-    public partial class AddCategoryToDatabase : Migration
+    public partial class AddCategoriesContextToDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
