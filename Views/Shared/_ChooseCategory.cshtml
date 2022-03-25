@@ -1,0 +1,12 @@
+﻿@using MyBlog.Controllers
+@model IEnumerable<MyBlog.Models.Category>
+
+<div>
+    <label for="category-names">Choose category:</label>
+    <select name="category-names" id="category-names">
+    @foreach(var obj in Model)
+    {        
+    <option value=@obj.CategoryName>@obj.CategoryName</option>
+    }
+    </select>
+</div>
